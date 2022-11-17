@@ -2,8 +2,26 @@
 @tailwind components;
 @tailwind utilities;
 
+a-fixed {
+    @apply fixed z-[9999];
+}
+
 .hamburger-line {
     @apply w-[30px] h-[2px] my-2 block bg-black;
 }
 
-.hamburger-active {}
+.hamburger-active>span:nth-child(1) {
+    @apply origin-top-left rotate-45;
+}
+
+.hamburger-active>span:nth-child(2) {
+    @apply scale-0;
+}
+
+.hamburger-active>span:nth-child(3) {
+    @apply origin-bottom-left -rotate-45;
+}
+
+.group{
+    
+}

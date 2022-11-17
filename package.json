@@ -1,6 +1,10 @@
 {
   "devDependencies": {
+<<<<<<< HEAD
     "prettier": "2.7.1",
     "tailwindcss": "^3.2.3"
+=======
+    "tailwindcss": "^3.2.4"
+>>>>>>> 64ddfb2793f58d711dbdc45fcf347ceb1416d877
   }
 }
